@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+body{
+  background-image: -webkit-gradient(linear,left top, left bottom,from(black),color-stop(#21146b),color-stop(#5923bc),to(#bc4516));
+  background-image: linear-gradient(black,#21146b,#5923bc,#bc4516);
+   height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.retroad{
+  color:white;
+  text-align:center;
+  font-family: Roboto, sans-serif;
+  font-size:large;
+}
+#testCanvas{
+  border:12px solid grey;
+  background-color:#9bbc0f;
+  border-radius:15px;
+}
+
+.gameboy{
+  margin:auto;
+  margin-top:80px;
+  -webkit-transform:rotate(18deg);
+          transform:rotate(18deg);
+  background-color:#e7e0f0;
+  padding:18px;
+  display: table;
+  height:320px;
+  border-radius:15px;  
+  border:1px solid grey;
+  box-shadow: inset 4px 1px 19px #171618;
+}
+
+.gameboy_controls{
+  margin-top:15px;
+}
+.gameboy_btnwrapper{
+  -webkit-transform:rotate(-40deg);
+          transform:rotate(-40deg);
+  float:right;
+  margin-top:30px;
+}
+.gameboy_dpad{
+  float:left;
+  color:black;
+  font-weight:900;
+  font-size:80px;
+}
+.gameboy_btn{
+  background-color:#b01f40;
+  width:30px;
+  height:30px;
+  border-radius:15px;
+  float:left;
+  margin:5px;
+  box-shadow: inset 1px 1px 15px #000000;
+}
+
+.gameboy_rivit {
+  background-color:#8a8690;
+  width:30px;
+  height:2px;
+  margin-top:4px;
+  
+}
+
+.gameboy_speaker{
+  -webkit-transform:rotate(50deg);
+          transform:rotate(50deg);
+  position:absolute;
+  bottom:23px;
+  right:12px;
+}
+.gameboy_selbtnwrapper{
+  position:absolute;
+  width:200px;
+  bottom:40px;
+  left:65px;
+}
+.gameboy_selbtn{
+  float:left;
+  margin-right:10px;
+  font-size:10px;
+  color:#000080;
+}
